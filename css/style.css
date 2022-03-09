@@ -1,0 +1,261 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+.body__wrapper {
+   background: rgb(236, 232, 157);
+   background: -moz-linear-gradient(top, rgba(236, 232, 157, 1) 0%, rgba(94, 83, 115, 1) 50%, rgba(24, 181, 164, 1) 100%);
+   background: -webkit-linear-gradient(top, rgba(236, 232, 157, 1) 0%, rgba(94, 83, 115, 1) 50%, rgba(24, 181, 164, 1) 100%);
+   background: linear-gradient(to bottom, rgba(236, 232, 157, 1) 0%, rgba(94, 83, 115, 1) 50%, rgba(24, 181, 164, 1) 100%);
+   width: auto;
+   height: 1090px;
+}
+
+.header__paragraph {
+   font-size: 110px;
+   color: #fff;
+}
+
+.wrapper {
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+
+.h1 {
+   font-size: 60px;
+   color: #fff;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-align: center;
+}
+
+.material-icons-outlined img {
+   width: 70px;
+   height: 60px;
+}
+
+.body__zagadka1 {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.header__title1 {
+   font-size: 29px;
+   font-weight: bold;
+   color: rgb(255, 255, 255);
+   line-height: 1.6;
+   letter-spacing: 1px;
+}
+
+.sah,
+.sah2,
+.sah3,
+.sah4 {
+   width: 70px;
+   height: 60px;
+   padding: 0px 6px;
+   display: none;
+   transition: all 0.6s ease-in-out;
+}
+
+.error,
+.error1,
+.error2,
+.error3,
+.error4 {
+   width: 70px;
+   height: 60px;
+   padding: 0px 6px;
+   display: none;
+   transition: all 0.6s ease-in-out;
+}
+
+.input1 {
+   width: 320px;
+   height: 50px;
+   font-size: 25px;
+   font-weight: bold;
+   color: blue;
+   border-radius: 16px;
+   border: 5px solid rgb(66, 86, 100);
+   transition: all 0.6s ease-in-out;
+}
+
+.input1::placeholder {
+   font-weight: normal;
+   font-family: 'Dancing Script', cursive;
+   color: rgba(3, 3, 3, 0.521);
+}
+
+.input1:focus {
+   border-radius: 20px;
+   border: 5px solid rgb(21, 189, 35);
+   box-shadow: 5px 10px #080808;
+   transition: all 0.6s ease-in-out;
+}
+
+.paragraph {
+   font-size: 29px;
+   color: rgb(255, 19, 58);
+   background-color: orange;
+   width: 1000px;
+   margin: 0 auto;
+   border-radius: 30px;
+   font-weight: bold;
+}
+
+.submit__button {
+   text-align: center;
+   justify-content: center;
+   display: flex;
+}
+
+.footer__image {
+   padding: 10px 0px;
+   width: 90px;
+   height: 80px;
+}
+
+.footer__if {
+   text-align: center;
+   align-items: center;
+   margin: 10px 0px;
+}
+
+.footer__text {
+   padding: 20px;
+   margin: 0 auto;
+   width: 700px;
+   background-color: red;
+   border: 1px solid red;
+   font-size: 35px;
+   border-radius: 20px;
+   color: #fff;
+   font-weight: bold;
+}
+
+.b {
+   font-size: 40px;
+   color: #080808;
+   font-weight: bold;
+}
+
+#button {
+   margin-top: 10px;
+   align-items: center;
+   min-height: 70px;
+   padding: 0px 60px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 18px;
+   border-radius: 10px;
+   position: relative;
+   top: 0;
+   cursor: pointer;
+}
+
+#button {
+   color: #fff;
+   background-color: #5e5373;
+   box-shadow: 0 5px 0px #3c354a;
+   transition-property: background-color;
+   transition-duration: 0.5s;
+}
+
+#button:hover {
+   top: 2px;
+   box-shadow: 0 3px 0px #3c354a;
+   background-color: #18b5a4;
+}
+
+
+@media (max-width: 1000px) {
+   .paragraph {
+      width: auto;
+      font-size: 25px;
+      margin: 30px 0px;
+   }
+
+   .footer__text {
+      width: auto;
+      font-size: 29px;
+   }
+
+}
+
+@media (max-width: 476px) {
+   .body__wrapper {
+      height: 1200px;
+   }
+
+   .header__title1 {
+      font-size: 22px;
+      padding: 0px 5px;
+   }
+
+   .input1 {
+      width: 260px;
+      height: 40px;
+      font-size: 25px;
+   }
+
+   .sah,
+   .sah2,
+   .sah3,
+   .sah4 {
+      width: 60px;
+      height: 50px;
+   }
+
+   .error,
+   .error1,
+   .error2,
+   .error3,
+   .error4 {
+      width: 60px;
+      height: 50px;
+      padding: 0px 6px;
+      display: none;
+      transition: all 0.6s ease-in-out;
+   }
+}
+
+@media (max-width: 400px) {
+   .body__wrapper {
+      height: 1290px;
+   }
+}
+
+@media (max-width: 350px) {
+   .body__wrapper {
+      height: 1390px;
+   }
+   .input1 {
+      width: 240px;
+      height: 40px;
+      font-size: 25px;
+   }
+
+   .sah,
+   .sah2,
+   .sah3,
+   .sah4 {
+      width: 56px;
+      height: 46px;
+   }
+
+   .error,
+   .error1,
+   .error2,
+   .error3,
+   .error4 {
+      width: 56px;
+      height: 46px;
+      padding: 0px 6px;
+      display: none;
+      transition: all 0.6s ease-in-out;
+   }
+}
